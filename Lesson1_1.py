@@ -13,27 +13,3 @@ for duration in ExampleList:
               f'{int(duration//60%60)} мин {int(duration%60)} сек')
     else:
         print("Применяемое значение является отрицательным числом!")
-print("\n")
-
-
-print("ЗАДАНИЕ 2")
-ListCubs = []
-number = 7289
-numbers = 0
-for num in str(number):
-    numbers += int(num)
-print(numbers)
-
-
-summ = 0
-NewList = []
-for num in range(1, 10):
-    ListCubs.append(num ** 3)
-    print(num)
-    for element in ListCubs[num - 1]:
-        print(element)
-        """summ += element
-    if summ % 7 == 0:
-        NewList.append(summ)
-
-print(NewList)"""
